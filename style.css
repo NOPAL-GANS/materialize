@@ -1,0 +1,431 @@
+body {
+    width: 100%;
+}
+
+
+/* slider */
+.slider h3,
+.slider h5,
+.clients h4 {
+    text-shadow: 1px 1px 3px rgba(0,0,0, 0.9);
+    font-style: italic;
+}
+/*  */
+
+/* container */
+.container h3 {
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+/*  */
+
+/* cyan */
+.cyan .brand-logo {
+    padding: 10px;
+}
+
+.cyan ul ul li {
+    width: 130px;
+    float: none;
+    display: list-item;
+    position: relative;
+}
+
+.cyan {
+   height: 80px;
+}
+
+.cyan ul li a {
+    display: block;
+    color: black;
+    padding: 10px;
+}
+
+.cyan ul li .dropdown {
+    display: none;
+}
+
+.cyan ul li:hover .dropdown {
+    display: block;
+    position: absolute;
+    background: #f1f1f1;
+    color: #666;
+    font-family: inherit;
+    font-size: 14px;
+    font-weight: normal;
+    padding: 0px 10px 0px 10px;
+    line-height: 35px;
+    text-decoration: none;
+    text-transform: none;
+}
+
+.cyan ul li:hover .dropdown li  {
+    display: block;
+}
+/*  */
+
+/* paralax */
+.parallax-container {
+    height: 250px;
+}
+
+.parallax img {
+    opacity: 0.5 !important;   
+    filter: grayscale(1);
+    background-position: center;
+    background-size: cover;
+}
+/*  */
+
+/* clients */
+.clients img {
+    max-width: 150px;
+    filter: drop-shadow( 1px 1px 3px rgba(0,0,0, 0.9));
+}
+/*  */
+
+/* services */
+#services {
+    background-color: blue;
+}
+
+#services{
+    background-color: #f1f1f1;
+}
+/*  */
+
+/* section */
+section {
+    padding: 20px 0;
+}
+/*  */
+
+/* berita */
+.berita {
+   padding-left: 40px;
+   background-color: white;
+
+}
+
+.berita img {
+    margin-left: 33px;
+}
+
+.berita p{
+   font-size: medium;
+   font-weight: 600;
+}
+
+.berita img:hover {
+    opacity: .6;
+    color: white;
+    transition: 1s;
+}
+
+.berita .card-content a {
+    margin-left: 1090px;
+    margin-top: -100px;
+    width: 150px;
+}
+
+.card-content a:hover {
+    opacity: .7;
+    background-color: black;
+}
+
+.berita .card-content p{
+    padding-left: 30px;
+    padding-right: 300px;
+}
+
+
+.berita .card {
+    margin-right: -710px;
+    height: 110px;
+    margin-left: -220px;
+    margin-top: 20px;
+    background-color: #f1f1f1;
+}
+
+.berita .container {
+    margin-bottom: -30px;
+}
+/*  */
+
+/* tentang */
+#tentang {
+    background-color: #f1f1f1;
+}
+
+#tentang img{
+   width: 400px;    
+   box-shadow: 1px 1px 6px rgba(0,0,0, 0.9);
+   margin-left: 10px;
+} 
+
+#tentang p {
+    font-weight: bold;
+    margin-left: 10px;
+    margin-right: 38px;
+}
+
+#tentang #p2 {
+    margin-left: 10px;
+}
+/*  */
+
+/* portfolio */
+.portfolio p {  
+    font-weight: 500;
+    text-shadow: 1px 1px 4px bisque;
+}
+
+.portfolio .card-panel {
+    color: gray;
+    box-shadow: 1px 1px 5px white;
+}
+
+.portfolio #g1 img {
+    width: 400px;
+}
+
+.portfolio #gambar h4 {
+    text-align: left;
+    font-weight: 700;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 90px;
+}
+
+#gambar .text {
+    text-align: left;
+    font-weight: 490;
+    font-size: large;
+    background-color: #f1f1f1;
+    border: 1px solid bisque;
+    padding: 23px;
+    margin-left: 90px;
+}
+
+#gambar .gambar {
+    margin-right: 900px;
+    width: 500px;
+    border: 1px solid blue;
+    margin-left: 90px;
+}
+
+#gambar h5 {
+    text-align: left;
+    font-size: larger;
+    font-weight: 700;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#gambar .text2 {
+    font-size: large;
+    font-weight: 400;
+}
+/*  */
+
+/* slider */
+.slider {
+   height: 20px;
+}
+/*  */
+
+/* about */
+#profil img {
+  margin-left: 40%;
+}
+
+#profil #kol1 {
+    float: right;
+    font-size: medium;
+    background-color: #f1f1f1;
+    border-radius: 1px solid bisque;
+    margin-right: 10%;
+    padding: 9px;
+}
+ 
+/*  */
+
+/* contact */
+.contact {
+    background-image: url(img/portfolio/Pengumuman-Masuk-Sekolah\ \(2\).jpg);
+    background-position: center;
+    background-attachment: fixed;
+    opacity: .8;
+}
+/*  */
+
+/* pendaftaran */
+#pendaftaran label {
+    font-weight: bold;
+    color: black;
+}
+
+#daftar label {
+    font-weight: bolder;
+    font-size: medium;
+}
+
+#daftar input {
+    font-weight: 500;
+    color: whitesmoke;
+}
+
+#daftar button {
+    background-color: aquamarine;
+}
+/*  */
+
+/* kiri */
+#footer{
+    width: 100%;
+    height: 900px;
+    background-color: #424242;
+}
+
+#footer .yt {
+    margin-left: 10px;
+}
+
+#footer iframe {
+    width: 400px;
+    height: 200px;
+    margin-top: 30px;
+}
+
+#footer .ggl {
+    height: 300px;
+    margin-left: 10px;
+    height: 500px;
+}
+
+#footer p {
+    color: grey;
+    font-weight: 500;
+    text-align: center;
+    margin-right: 23px;
+}
+/*  */
+
+/* tengah */
+#tengah h4 {
+    font-weight: 400;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+}
+
+#tengah hr {
+   width: 250px;
+   margin-right: 300px;
+   border: 1px solid #1565c0 ;
+}
+
+#tengah img {
+    border: 1px solid white;
+    margin-top: 17px;
+}
+
+#tengah .p1 {
+   margin-top: -50px;
+   margin-right: 75px;
+   color: white;
+}
+
+#tengah .p1:hover {
+    color: #1e88e5;
+    transition: .4s;
+}
+
+#tengah #hr2{
+    margin-top: 29px;
+    width: 380px;
+    border: .1px solid grey;
+}
+
+#tengah #hr3 {
+    border: .1px solid grey;
+    width: 380px;
+    margin-top: -8px;
+}
+/*  */
+#k2 .p2  {
+    color: white;
+    margin-top: -50px;
+    margin-right: 99px;
+    margin-left: 55px;
+}
+
+#k2 .p2:hover {
+    color: #1e88e5;
+    transition: .4s;
+}
+/*  */
+#k3 .p3 {
+    margin-top: -50px;
+    color: white;
+}
+
+#k3 #hr4 {
+    margin-top: 29px;
+    width: 380px;
+    border: .1px solid gray;
+}
+
+#k3 .p3:hover {
+    color: #1e88e5;
+}
+/*  */
+
+/* kanan */
+#kanan .judul {
+    font-weight: 500;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+}
+
+#kanan hr {
+    width: 250px;
+    margin-right: 300px;
+    border: 1px solid #1565c0;
+}
+
+#kanan img {
+    width: 50px;
+    height: 50px;
+}
+
+#kanan p {
+    color: white;
+    font-weight: 600;
+    margin-top: -39px;
+    margin-right: 295px;
+}
+
+#kanan .hr2 {
+    border: .1px solid grey;
+    width: 380px;
+    margin-top: -3px;
+}
+
+#kanan p:hover {
+    color: #1565c0;
+    transition: .3s;
+}
+
+#kanan .hr3 {
+    margin-top: 3px;
+    width: 380px;
+    border: 1px solid grey;
+}
+
+#kanan .p3 {
+    margin-left: 59px;
+}
+#kanan .hr4 {
+    margin-top: 20px;
+    border: .1px solid grey;
+    width: 380px;
+}
